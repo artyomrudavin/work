@@ -26,9 +26,10 @@
 /* css animation */
 .css-box {
   left: 0;
-  transition: all 1s;
+  transition: all 2s cubic-bezier(.44,1.08,.47,-0.41);
 }
 
 .css-box-animated {
-  left: 200px;
+  left: 400px;
+  background: pink;
 }

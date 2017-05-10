@@ -31,8 +31,8 @@ box.addEventListener('click', function() {
 //jquery animation
 $('.jquery-box').on('click', function() {
   $(this).animate({
-    left: '+=100'
-  }, 1000);
+    left: '+=300'
+  }, 2000, 'easeInElastic');
 });
 
 //css animation
