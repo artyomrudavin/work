@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #FAFAFA;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 30px auto;
+  padding: 10px;
+  background: grey;
+}
+
+a {
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  margin: 5px;
+  border: 5px solid #fff;
+}
+
+img {
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 720px) {
+  .gallery {
+    flex-wrap: wrap;
+  }
+
+  a {
+    flex: 1 1 30%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  a {
+    flex: 1 1 100%;
+  }
+}
