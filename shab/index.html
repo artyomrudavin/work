@@ -10,8 +10,13 @@
 </head>
 <body>
 
-	<script type="text/template" id="test">
-			<h1>test</h1>
+	<script type="text/html" id="test"> 
+		<% for (var i = 0; i < data.length; i++) { %>	
+		<div class="article">
+			<h1><% print(data[i].title); %></h1>
+			<p><%= data[i].content %></p>
+		</div>
+		<% }; %>
 	</script>
 	
 </body>
