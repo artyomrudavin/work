@@ -1,5 +1,9 @@
-console.log('Hello!');
-
 $(function() {
-	$('p').css('color', 'green');	
+
+	var template = $('#test').html();
+
+	console.log('template', template);
+
+	$('body').append(template);
+
 });
