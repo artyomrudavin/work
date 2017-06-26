@@ -1,0 +1,29 @@
+@import 'variables';
+@import 'reset';
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+h1 {
+  color: $primary-color; 
+}
+
+.menu {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid black;
+  @include border-radius(10px);
+  
+  li {
+    float: left;
+    list-style: none;
+    padding: 20px; 
+  }
+
+  a {
+    color: $green; 
+  }
+}

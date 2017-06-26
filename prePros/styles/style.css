@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px; }
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+h1 {
+  color: #333; }
+
+.menu {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid black;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+  .menu li {
+    float: left;
+    list-style: none;
+    padding: 20px; }
+  .menu a {
+    color: green; }
+
+/*# sourceMappingURL=style.css.map */
